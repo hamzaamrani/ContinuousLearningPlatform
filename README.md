@@ -47,7 +47,7 @@ For the platform, we collected several datasets and developed, for each one, the
 
 3. Python: install **[MATLAB Engine API for Python](https://it.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)**.
 
-3. Python: install required libraries (TODO).
+3. Python: install required [dependencies](/requirements.txt).
 
 4. (Optionally) Download [mongoDB Compass](https://www.mongodb.com/products/compass) to visualize and work with data through an intuitive GUI.
 ### (Alternative)
