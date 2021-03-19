@@ -34,23 +34,11 @@ For the platform, we collected several datasets and developed, for each one, the
 
 ### Prerequisites
 - [Python](https://www.python.org/) 3.8
-- [MongoDB](https://www.mongodb.com/it) 4.2.0
-- [RabbitMQ](https://www.rabbitmq.com/download.html) 3.8.9
+- [MongoDB*](https://www.mongodb.com/it) 4.2.0
+- [RabbitMQ*](https://www.rabbitmq.com/download.html) 3.8.9
 - [MATLAB](https://it.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) R2020b
 
-
-### Installation
-
-1. RabbitMQ: create a new user (credentials, **rabbitmq:rabbitmq**) with all permissions. You can create it using the GUI interface at http://localhost:15672/ (note that you need to abilitate it, https://www.rabbitmq.com/management.html#getting-started).
-
-2. MATLAB: install the package **[Signal Processing Toolbox](https://it.mathworks.com/products/signal.html)**.
-
-3. Python: install **[MATLAB Engine API for Python](https://it.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)**.
-
-3. Python: install required [dependencies](/requirements.txt).
-
-4. (Optionally) Download [mongoDB Compass](https://www.mongodb.com/products/compass) to visualize and work with data through an intuitive GUI.
-### (Alternative)
+### *(Alternative)
 You can avoid to install MongoDB and RabbitMQ, using Docker launching the command:
 ```
   docker-compose up
@@ -77,6 +65,19 @@ services:
             - 5672:5672
             - 15672:15672
 ```
+
+### Installation
+
+1. RabbitMQ: create a new user (credentials, **rabbitmq:rabbitmq**) with all permissions. You can create it using the GUI interface at http://localhost:15672/ (note that you need to abilitate it, https://www.rabbitmq.com/management.html#getting-started).
+
+2. MATLAB: install the package **[Signal Processing Toolbox](https://it.mathworks.com/products/signal.html)**.
+
+3. Python: install **[MATLAB Engine API for Python](https://it.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)**.
+
+3. Python: install required [dependencies](/requirements.txt).
+
+4. (Optionally) Download [mongoDB Compass](https://www.mongodb.com/products/compass) to visualize and work with data through an intuitive GUI.
+
 
 ### Usage
 
