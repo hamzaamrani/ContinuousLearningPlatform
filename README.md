@@ -70,7 +70,7 @@ services:
 
 1. RabbitMQ: create a new user (credentials, **rabbitmq:rabbitmq**) with all permissions. You can create it using the GUI interface at http://localhost:15672/ (note that you need to abilitate it, https://www.rabbitmq.com/management.html#getting-started).
 
-2. MATLAB: install the package **[Signal Processing Toolbox](https://it.mathworks.com/products/signal.html)**.
+2. MATLAB: install the packages:  **[Signal Processing Toolbox](https://it.mathworks.com/products/signal.html)** and **[Statistics and Machine Learning Toolbox](https://it.mathworks.com/help/stats/index.html?s_tid=CRUX_lftnav)**.
 
 3. Python: install **[MATLAB Engine API for Python](https://it.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)**.
 
